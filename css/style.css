@@ -10,9 +10,12 @@
     text-align: center;
     align-items: center;
     width: 100%;
+    top: 0px;
     height: 113px;
     position: fixed;
+    position: sticky;
     z-index: 1;
+    background-color: #FFF;
 }
 
 .logoAndTitle {
