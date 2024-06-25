@@ -132,3 +132,75 @@
     }
 
 }
+
+/* travel section */
+
+.travelSection {
+    display: flex;
+    align-items: center;
+    height: 606px;
+    justify-content: center;
+    
+}
+
+.travelText {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    height: 478px;
+    gap: 43px;
+}
+
+.travelText h2 {
+    font-family: 'CircularStd-700';
+    font-size: 69px;
+    line-height: 82.8px;
+    text-align: left;
+}
+
+.travelP {
+    font-family: 'Inter400';
+    font-size: 18px;
+    line-height: 28.8px;
+    text-align: left;
+    color: #19182580;
+}
+
+.startedAndWatch {
+    display: flex;
+    align-items: center;
+    width: 338px;
+    height: 56px;
+    gap: 16px;
+}
+
+.getStarted {
+    width: 141px;
+    height: 49px;
+    border-radius: 100px;
+    background-color: #5D50C6;
+    color: #EEEEEE;
+    font-family: 'CircularStd-700';
+    font-size: 14px;
+    line-height: 16.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchDemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    height: 56px;
+    border-radius: 100px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid #EEEEEE;
+    font-family: 'CircularStd-700';
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #222831;
+}
