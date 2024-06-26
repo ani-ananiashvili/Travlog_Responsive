@@ -296,7 +296,8 @@
 @media (max-width: 430px) {}
 
 
-/* destination section */
+
+/* destination text section */
 
 .arrow-left {
     width: 80px;
@@ -323,6 +324,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 128px;
+    margin-top: 64px;
 }
 
 .arrows {
@@ -355,7 +357,45 @@
 }
 
 
+/* destination image section */
 
+.destinationImageDiv {
+    display: flex;
+    gap: 32px;
+    padding: 64px 128px;
+}
+
+.aboutAndMoney {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.aboutAndMoney :nth-child(1) {
+    font-family: 'CircularStd-700';
+    font-size: 23px;
+    line-height: 27.6px;
+    width: 228.33px;
+}
+
+.aboutAndMoney :nth-child(2) {
+    font-family: 'CircularStd-700';
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #F85E9F;
+}
+
+.cityAndRate p {
+    font-family: 'Inter400';
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #191825BF;
+    margin-bottom: 32px;
+
+}
+
+.destinationAbout {
+    padding: 32px 32px;
+}
 
 
 /* destination section responsive */
