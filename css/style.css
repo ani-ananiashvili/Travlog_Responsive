@@ -4,14 +4,15 @@
     display: none;
 }
 
+
 .headerSection {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
     width: 100%;
-    top: 0px;
-    height: 113px;
+    padding: 20px 20px;
     position: fixed;
     position: sticky;
     z-index: 1;
@@ -152,11 +153,21 @@
 }
 
 .travelText h2 {
+    color: #000;
     font-family: 'CircularStd-700';
     font-size: 69px;
     line-height: 82.8px;
     text-align: left;
 }
+
+.travelText span {
+    color: #f85e9f;
+    font-family: "Poppins";
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
 
 .travelP {
     font-family: 'Inter400';
@@ -212,7 +223,6 @@
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
-        height: 813.38px;
         top: 113px;
         left: 64px;
         padding: 64px 0px;

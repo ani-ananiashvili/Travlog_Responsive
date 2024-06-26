@@ -50,25 +50,27 @@
 
         <section class="travelSection">
             <div class="travelText">
-                <h2>Travel top destination
-                    of the world</h2>
-                <div class="travelP">
-                    <p>We always make our customer happy by providing as many choices as possible</p>
-                </div>
+                <h2>Travel <span>top destination</span> of the world</h2>
+                <p class="travelP">
+                    We always make our customer happy by providing as many choices as possible
+                </p>
                 <div class="startedAndWatch">
                     <a class="getStarted" href="">
                         <p>Get Started</p>
                     </a>
                     <a class="watchDemo" href="">
                         <img src="images/play_icon.svg" alt="">
-                        <span>Watch Demo</span>
+                        <p>Watch Demo</p>
                     </a>
                 </div>
             </div>
             </div>
-            <div>
-                <img src="images/travel.png" alt="image">
-
+            <div class="travelImageDiv">
+                <picture>
+                    <source media="(min-width:1024px)" srcset="images/travel.png">
+                    <source media="(min-width:430px)" srcset="images/travel_mobile.png">
+                    <img src="images/travel_mobile.png" alt="image" class="travelImage">
+                </picture>
             </div>
         </section>
 
