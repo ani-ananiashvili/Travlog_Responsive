@@ -207,15 +207,44 @@
 
 /* travel section responsive */
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .travelSection {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 813.38px;
+        top: 113px;
+        left: 64px;
+        padding: 64px 0px;
+        gap: 64px;
+    }
+
+    .travelText {
+        height: 334px;
+        gap: 64px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .travelText h2 {
+        width: 896px;
+        height: 134px;
+        text-align: center;
+    }
+
+    .travelP {
+        display: flex;
+        width: 445px;
+        height: 58px;
+        text-align: center;
+    }
+}
 
 @media (max-width: 430px) {}
 
 
 
 /* sites section */
-
-
 
 .sites {
     width: 1183px;
@@ -225,14 +254,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
 
 
 /* sites section responsive */
