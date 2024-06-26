@@ -322,8 +322,8 @@
 
 .destinationText {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 128px;
+    justify-content: space-around;
+    padding: 0px 128x;
     margin-top: 64px;
 }
 
@@ -363,6 +363,7 @@
     display: flex;
     gap: 32px;
     padding: 64px 128px;
+    justify-content: center;
 }
 
 .aboutAndMoney {
@@ -403,3 +404,41 @@
 @media (max-width: 1024px) {}
 
 @media (max-width: 430px) {}
+
+
+
+/* travel point section  */
+
+.travelPontSection {
+    display: flex;
+}
+
+.travelPointText {
+    display: flex;
+    flex-direction: column;
+    width: 441px;
+    gap: 32px;
+
+}
+
+.travelPointText h3 {
+    font-family: 'CircularStd-700';
+    font-size: 23px;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    color: #F85E9F;
+}
+
+.travelPointText h2 {
+    font-family: 'CircularStd-700';
+    font-size: 44px;
+    line-height: 52.8px;
+    color: #191825;
+}
+
+.travelPointText p {
+    font-family: 'Inter400';
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #19182580;
+}
