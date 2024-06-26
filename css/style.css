@@ -240,7 +240,30 @@
     }
 }
 
-@media (max-width: 430px) {}
+@media (max-width: 430px) {
+    .travelText {
+        width: 398px;
+        height: 413px;
+        gap: 32px;
+    }
+
+    .startedAndWatch {
+        flex-direction: column;
+    }
+
+    .getStarted {
+        width: 398px;
+        height: 65px;
+        padding: 24px 32px;
+    }
+
+    .watchDemo {
+        width: 398px;
+        height: 72px;
+        padding: 24px 32px;
+    }
+
+}
 
 
 
