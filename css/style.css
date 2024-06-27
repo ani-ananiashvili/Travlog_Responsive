@@ -4,15 +4,14 @@
     display: none;
 }
 
-
 .headerSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    padding: 20px 20px;
+    max-width: 1184px;
+    padding: 32px 0px;
+    width: 90%;
     position: fixed;
     position: sticky;
     z-index: 1;
@@ -22,44 +21,38 @@
 .logoAndTitle {
     display: flex;
     align-items: center;
-    width: 142px;
-    /* height: 40px; */
     gap: 16px;
 }
 
-.travlogTitle {
+.logoAndTitle h3 a {
     font-family: 'CircularStd-900';
     font-size: 24px;
     line-height: 40px;
-    text-align: left;
     color: #191825;
 
 }
 
 .navigation ul {
     display: flex;
+    justify-content: space-between;
     width: 428px;
-    height: 17px;
-    gap: 64px;
+    background-color: #fff;
+    padding-right: 100px;
 }
 
-.ulList {
+.navigation ul li a {
     font-family: 'CircularStd-700';
     font-size: 14px;
     line-height: 16.8px;
-    text-align: left;
     color: #19182580;
 }
 
-.ulList.listHome {
+.listHome.difColor {
     color: #222831;
 }
 
 .registration {
     display: flex;
-    width: 220px;
-    display: flex;
-    align-items: center;
 }
 
 .registration a {
@@ -67,23 +60,19 @@
     font-size: 14px;
     line-height: 16.8px;
     text-align: center;
+    padding: 16px 32px;
 }
 
 .registration :first-child {
     color: #222831;
-    width: 105px;
-    height: 49px;
-    padding: 16px 32px;
 }
 
 .registration :nth-child(2) {
     color: #EEEEEE;
-    width: 115px;
-    height: 49px;
     border-radius: 100px;
     background-color: #5D50C6;
-    padding: 16px 32px;
 }
+
 
 
 /* header responsive */
@@ -94,38 +83,28 @@
         display: none;
     }
 
-    .headerSection {
+    .menuIcon {
+        display: block;
         width: 100%;
-        left: 64px;
-        justify-content: space-between;
-        gap: 243px;
+        /* width: 48px;
+        height: 48px; */
     }
 
     .logoMenuReverse {
         display: flex;
         flex-direction: row-reverse;
         gap: 243px;
-        align-items: center;
     }
 
-    .menuIcon {
-        display: block;
+    .headerSection {
+        max-width: 896px;
     }
-
-    .registration {
-        width: 100%;
-    }
-
 }
 
 @media (max-width: 430px) {
 
     .headerSection {
-        width: 398px;
-        height: 112px;
-        left: 16px;
-        display: flex;
-        justify-content: space-between;
+        max-width: 398px;
     }
 
     .menuIcon {
