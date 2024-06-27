@@ -418,7 +418,6 @@
     flex-direction: column;
     width: 441px;
     gap: 32px;
-
 }
 
 .travelPointText h3 {
@@ -441,4 +440,43 @@
     font-size: 18px;
     line-height: 28.8px;
     color: #19182580;
+}
+
+.textAndSuggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.suggestions div {
+    width: 204.5px;
+    height: 151px;
+    border-radius: 32px;
+    border: 1px solid #1918251A;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.suggestions span {
+    font-family: 'CircularStd-700';
+    font-size: 35px;
+    line-height: 42px;
+    color: #FF5722;
+}
+
+.suggestions h5 {
+    font-family: 'Inter400';
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #191825;
 }
