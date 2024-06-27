@@ -599,9 +599,8 @@
 }
 
 .mediaP {
-    font-family: Circular Std;
+    font-family: 'CircularStdBook-500';
     font-size: 23px;
-    font-weight: 450;
     line-height: 36.8px;
     color: #19182580;
     margin-bottom: 64px;
@@ -653,7 +652,7 @@
 }
 
 
-/* footer responsive */
+/* footer  responsive */
 
 @media (max-width: 1024px) {}
 
