@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     width: 142px;
-    height: 40px;
+    /* height: 40px; */
     gap: 16px;
 }
 
@@ -578,3 +578,83 @@
 .location.discount_coupon {
     background-color: #F85E9F;
 }
+
+/* key features section responsive */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 430px) {}
+
+
+/* footer section */
+
+.mediaText {
+    width: 560px;
+}
+
+.footerLogoAndTitle {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.mediaP {
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 450;
+    line-height: 36.8px;
+    color: #19182580;
+    margin-bottom: 64px;
+}
+
+.socMedia {
+    display: flex;
+    gap: 32px;
+}
+
+.navigation h4 a {
+    font-family: 'CircularStd-700';
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #191825;
+}
+
+.navigation ul a {
+    font-family: 'Inter400';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #191825BF;
+}
+
+.navigation {
+    width: 165.33px;
+}
+
+.navigation nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1, 184px;
+    margin-left: 96px;
+    margin-top: 163px;
+    padding: 64px 0px;
+    gap: 64px;
+}
+
+.fullNav {
+    display: flex;
+}
+
+
+/* footer responsive */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 430px) {}
