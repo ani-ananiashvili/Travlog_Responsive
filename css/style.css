@@ -188,6 +188,10 @@
     color: #222831;
 }
 
+.travelImageDiv {
+    width: 100%;
+}
+
 .travelImage {
     width: 100%;
 }
@@ -219,6 +223,10 @@
         width: 445px;
         height: 58px;
         text-align: center;
+    }
+
+    .travelImageDiv {
+        width: 100%;
     }
 }
 
@@ -266,385 +274,396 @@
         padding: 24px 32px;
     }
 
-}
-
-/* sites section */
-
-.sites {
-    width: 1183px;
-    margin: 0 auto;
-    height: 160px;
-    padding: 64px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* sites section responsive */
-
-@media (max-width: 1024px) {}
-
-@media (max-width: 430px) {}
-
-
-
-/* destination text section */
-
-.arrow-left {
-    width: 80px;
-    height: 80px;
-    border-radius: 100px;
-    border: 1px solid #1918251A;
-    background-color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.arrow-right {
-    width: 80px;
-    height: 80px;
-    border-radius: 100px;
-    background-color: #5D50C6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destinationText {
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 128x;
-    margin-top: 64px;
-}
-
-.arrows {
-    display: flex;
-    width: 232px;
-    height: 100px;
-    gap: 32px;
-}
-
-.destinationTitles {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.destinationTitles h4 {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    letter-spacing: 0.2em;
-    text-align: left;
-    color: #F85E9F;
-    text-transform: uppercase;
-}
-
-.destinationText h3 {
-    font-family: 'CircularStd-700';
-    font-size: 44px;
-    line-height: 52.8px;
-}
-
-
-/* destination image section */
-
-.destinationImageDiv {
-    display: flex;
-    gap: 32px;
-    padding: 64px 128px;
-    justify-content: center;
-}
-
-.aboutAndMoney {
-    display: flex;
-    margin-bottom: 16px;
-}
-
-.aboutAndMoney :nth-child(1) {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    width: 228.33px;
-}
-
-.aboutAndMoney :nth-child(2) {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    color: #F85E9F;
-}
-
-.cityAndRate p {
-    font-family: 'Inter400';
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #191825BF;
-    margin-bottom: 32px;
+    .travelImageDiv {
+        width: 396px;
+    }
 
 }
 
-.destinationAbout {
-    padding: 32px 32px;
-}
+    /* sites section */
 
+    .sites {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 1183px;
+        width: 90%;
+        padding: 64px 0px;
+    }
 
-/* destination section responsive */
+    /* sites section responsive */
 
-@media (max-width: 1024px) {}
+    @media (max-width: 1024px) {
+        .sites {
+            max-width: 896px;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 32px;
+        }
+    }
 
-@media (max-width: 430px) {}
-
-
-
-/* travel point section  */
-
-.travelPontSection {
-    display: flex;
-}
-
-.travelPointText {
-    display: flex;
-    flex-direction: column;
-    width: 441px;
-    gap: 32px;
-}
-
-.travelPointText h3 {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    letter-spacing: 0.2em;
-    color: #F85E9F;
-    text-transform: uppercase;
-}
-
-.travelPointText h2 {
-    font-family: 'CircularStd-700';
-    font-size: 44px;
-    line-height: 52.8px;
-    color: #191825;
-}
-
-.travelPointText p {
-    font-family: 'Inter400';
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #19182580;
-}
-
-.textAndSuggestions {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-}
-
-.suggestions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-.suggestions div {
-    width: 204.5px;
-    height: 151px;
-    border-radius: 32px;
-    border: 1px solid #1918251A;
-    background-color: #FFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-}
-
-.suggestions span {
-    font-family: 'CircularStd-700';
-    font-size: 35px;
-    line-height: 42px;
-    color: #FF5722;
-}
-
-.suggestions h5 {
-    font-family: 'Inter400';
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #191825;
-}
-
-
-/* travel point section responsive */
-
-@media (max-width: 1024px) {}
-
-@media (max-width: 430px) {}
+    @media (max-width: 430px) {}
 
 
 
-/* key features section */
+    /* destination text section */
 
-.keyFeatureText {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin: 137px 64px 64px 64px;
-}
+    .arrow-left {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        border: 1px solid #1918251A;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.keyFeatureText h3 {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #F85E9F;
-}
+    .arrow-right {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        background-color: #5D50C6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.keyFeatureText h2 {
-    font-family: 'CircularStd-700';
-    font-size: 44px;
-    line-height: 52.8px;
-    color: #191825;
-}
+    .destinationText {
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 128x;
+        margin-top: 64px;
+    }
 
-.keyFeatureText p {
-    font-family: 'Inter400';
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #19182580;
-}
+    .arrows {
+        display: flex;
+        width: 232px;
+        height: 100px;
+        gap: 32px;
+    }
 
-.location {
-    width: 100px;
-    height: 100px;
-    border-radius: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FF5722;
-}
+    .destinationTitles {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
 
-.featuresDiv {
-    display: flex;
-    flex-direction: column;
-    margin-left: 64px;
-}
+    .destinationTitles h4 {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        letter-spacing: 0.2em;
+        text-align: left;
+        color: #F85E9F;
+        text-transform: uppercase;
+    }
 
-.features {
-    display: flex;
-    gap: 32px;
-    padding: 32px;
-}
-
-.featureAbout {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-}
-
-.featureAbout h5 {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    color: #191825;
-}
-
-.featureAbout p {
-    font-family: 'Inter40';
-    font-size: 18px;
-    line-height: 28.8px;
-    color: #19182580;
-}
-
-.location.schedule {
-    background-color: #FACD49;
-}
-
-.features.feature2 {
-    border-radius: 32px;
-    border: 1px solid #1918251A;
-}
-
-.location.discount_coupon {
-    background-color: #F85E9F;
-}
-
-/* key features section responsive */
-
-@media (max-width: 1024px) {}
-
-@media (max-width: 430px) {}
+    .destinationText h3 {
+        font-family: 'CircularStd-700';
+        font-size: 44px;
+        line-height: 52.8px;
+    }
 
 
-/* footer section */
+    /* destination image section */
 
-.mediaText {
-    width: 560px;
-}
+    .destinationImageDiv {
+        display: flex;
+        gap: 32px;
+        padding: 64px 128px;
+        justify-content: center;
+    }
 
-.footerLogoAndTitle {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 32px;
-}
+    .aboutAndMoney {
+        display: flex;
+        margin-bottom: 16px;
+    }
 
-.mediaP {
-    font-family: 'CircularStdBook-500';
-    font-size: 23px;
-    line-height: 36.8px;
-    color: #19182580;
-    margin-bottom: 64px;
-}
+    .aboutAndMoney :nth-child(1) {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        width: 228.33px;
+    }
 
-.socMedia {
-    display: flex;
-    gap: 32px;
-}
+    .aboutAndMoney :nth-child(2) {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        color: #F85E9F;
+    }
 
-.navigation h4 a {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    color: #191825;
-}
+    .cityAndRate p {
+        font-family: 'Inter400';
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #191825BF;
+        margin-bottom: 32px;
 
-.navigation ul a {
-    font-family: 'Inter400';
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.8px;
-    color: #191825BF;
-}
+    }
 
-.navigation {
-    width: 165.33px;
-}
-
-.navigation nav {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    width: 1, 184px;
-    margin-left: 96px;
-    margin-top: 163px;
-    padding: 64px 0px;
-    gap: 64px;
-}
-
-.fullNav {
-    display: flex;
-}
+    .destinationAbout {
+        padding: 32px 32px;
+    }
 
 
-/* footer  responsive */
+    /* destination section responsive */
 
-@media (max-width: 1024px) {}
+    @media (max-width: 1024px) {}
 
-@media (max-width: 430px) {}
+    @media (max-width: 430px) {}
+
+
+
+    /* travel point section  */
+
+    .travelPontSection {
+        display: flex;
+    }
+
+    .travelPointText {
+        display: flex;
+        flex-direction: column;
+        width: 441px;
+        gap: 32px;
+    }
+
+    .travelPointText h3 {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        letter-spacing: 0.2em;
+        color: #F85E9F;
+        text-transform: uppercase;
+    }
+
+    .travelPointText h2 {
+        font-family: 'CircularStd-700';
+        font-size: 44px;
+        line-height: 52.8px;
+        color: #191825;
+    }
+
+    .travelPointText p {
+        font-family: 'Inter400';
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #19182580;
+    }
+
+    .textAndSuggestions {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .suggestions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .suggestions div {
+        width: 204.5px;
+        height: 151px;
+        border-radius: 32px;
+        border: 1px solid #1918251A;
+        background-color: #FFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .suggestions span {
+        font-family: 'CircularStd-700';
+        font-size: 35px;
+        line-height: 42px;
+        color: #FF5722;
+    }
+
+    .suggestions h5 {
+        font-family: 'Inter400';
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #191825;
+    }
+
+
+    /* travel point section responsive */
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 430px) {}
+
+
+
+    /* key features section */
+
+    .keyFeatureText {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 137px 64px 64px 64px;
+    }
+
+    .keyFeatureText h3 {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #F85E9F;
+    }
+
+    .keyFeatureText h2 {
+        font-family: 'CircularStd-700';
+        font-size: 44px;
+        line-height: 52.8px;
+        color: #191825;
+    }
+
+    .keyFeatureText p {
+        font-family: 'Inter400';
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #19182580;
+    }
+
+    .location {
+        width: 100px;
+        height: 100px;
+        border-radius: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF5722;
+    }
+
+    .featuresDiv {
+        display: flex;
+        flex-direction: column;
+        margin-left: 64px;
+    }
+
+    .features {
+        display: flex;
+        gap: 32px;
+        padding: 32px;
+    }
+
+    .featureAbout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .featureAbout h5 {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        color: #191825;
+    }
+
+    .featureAbout p {
+        font-family: 'Inter40';
+        font-size: 18px;
+        line-height: 28.8px;
+        color: #19182580;
+    }
+
+    .location.schedule {
+        background-color: #FACD49;
+    }
+
+    .features.feature2 {
+        border-radius: 32px;
+        border: 1px solid #1918251A;
+    }
+
+    .location.discount_coupon {
+        background-color: #F85E9F;
+    }
+
+    /* key features section responsive */
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 430px) {}
+
+
+    /* footer section */
+
+    .mediaText {
+        width: 560px;
+    }
+
+    .footerLogoAndTitle {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .mediaP {
+        font-family: 'CircularStdBook-500';
+        font-size: 23px;
+        line-height: 36.8px;
+        color: #19182580;
+        margin-bottom: 64px;
+    }
+
+    .socMedia {
+        display: flex;
+        gap: 32px;
+    }
+
+    .navigation h4 a {
+        font-family: 'CircularStd-700';
+        font-size: 23px;
+        line-height: 27.6px;
+        color: #191825;
+    }
+
+    .navigation ul a {
+        font-family: 'Inter400';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        color: #191825BF;
+    }
+
+    .navigation {
+        width: 165.33px;
+    }
+
+    .navigation nav {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        width: 1, 184px;
+        margin-left: 96px;
+        margin-top: 163px;
+        padding: 64px 0px;
+        gap: 64px;
+    }
+
+    .fullNav {
+        display: flex;
+    }
+
+
+    /* footer  responsive */
+
+    @media (max-width: 1024px) {}
+
+    @media (max-width: 430px) {}
