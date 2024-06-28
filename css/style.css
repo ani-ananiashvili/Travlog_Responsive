@@ -535,7 +535,6 @@
         width: 100%;
         height: 575px;
     }
-
 }
 
 
@@ -543,6 +542,12 @@
 
 .travelPontSection {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1312px;
+    padding: 64px 0px;
+    width: 90%;
 }
 
 .travelPointText {
@@ -576,9 +581,14 @@
 }
 
 .textAndSuggestions {
+    width: 441px;
     display: flex;
     flex-direction: column;
     gap: 64px;
+}
+
+.travelGirl {
+    width: 100%;
 }
 
 .suggestions {
@@ -617,9 +627,73 @@
 
 /* travel point section responsive */
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
 
-@media (max-width: 430px) {}
+    .travelPontSection {
+        flex-direction: column;
+        max-width: 869px;
+        gap: 64px;
+    }
+
+    .textAndSuggestions {
+        max-width: 832px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .travelPointText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .suggestions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .suggestions div {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .travelPontSection {
+        flex-direction: column;
+        max-width: 398px;
+        padding: 32px 0px;
+        gap: 64px;
+    }
+
+    .travelPointText h3 {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+
+    .travelPointText h2 {
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+
+    .travelPointText p {
+        font-size: 16px;
+        line-height: 25.6px;
+    }
+
+    .textAndSuggestions {
+        max-width: 398px;
+        width: 100%;
+    }
+
+    .suggestions {
+        flex-direction: column;
+    }
+
+    .suggestions div {
+        width: 370px;
+    }
+}
 
 
 
