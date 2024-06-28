@@ -29,7 +29,6 @@
     font-size: 24px;
     line-height: 40px;
     color: #191825;
-
 }
 
 .navigation ul {
@@ -705,7 +704,6 @@
     width: 90%;
 }
 
-
 .keyFeatureText {
     display: flex;
     flex-direction: column;
@@ -826,21 +824,23 @@
     .features {
         display: flex;
         flex-wrap: wrap;
-        background-color: #573e3e;
     }
 }
 
 
 /* footer section */
 
-.mediaText {
-    width: 560px;
+.footer {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 64px 0px;
+    width: 90%;
+    display: flex;
+    gap: 64px;
 }
 
-.footerLogoAndTitle {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 32px;
+.mediaText {
+    width: 560px;
 }
 
 .mediaP {
@@ -848,7 +848,7 @@
     font-size: 23px;
     line-height: 36.8px;
     color: #19182580;
-    margin-bottom: 64px;
+    margin: 32px 0px 64px 0px;
 }
 
 .socMedia {
@@ -856,14 +856,19 @@
     gap: 32px;
 }
 
-.navigation h4 a {
-    font-family: 'CircularStd-700';
-    font-size: 23px;
-    line-height: 27.6px;
-    color: #191825;
+.fullNav {
+    display: flex;
+    width: 560px;
+    gap: 64px;
 }
 
-.navigation ul a {
+.footerNavigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footerNavigation ul li a {
     font-family: 'Inter400';
     font-size: 18px;
     font-weight: 400;
@@ -871,34 +876,62 @@
     color: #191825BF;
 }
 
-.navigation {
-    width: 165.33px;
-}
-
-.navigation nav {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    width: 1, 184px;
-    margin-left: 96px;
-    margin-top: 163px;
-    padding: 64px 0px;
-    gap: 64px;
-}
-
-.fullNav {
-    display: flex;
+.footerNavigation ul li a h4  {
+    font-family: 'CircularStd-700';
+    font-size: 23px;
+    line-height: 27.6px;
+    color: #191825;
 }
 
 
 /* footer  responsive */
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
 
-@media (max-width: 430px) {}
+    .footer {
+        flex-direction: column;
+        max-width: 897px;
+    }
+
+    .mediaText {
+        width: 100%;
+    }
+
+    .mediaP {
+        margin: 32px 0px 32px 0px;
+    }
+
+    .fullNav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .footerNavigation ul li a {
+        display: none;
+    }
+
+    .fullNav {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .mediaP {
+        font-size: 16px;
+        line-height: 25.6px;
+    }
+
+    .footerNavigation ul li {
+        gap: 64px;
+    }
+
+    .footer {
+        max-width: 897px;
+    }
+
+
+
+}
