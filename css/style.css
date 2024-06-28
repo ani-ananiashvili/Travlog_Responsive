@@ -12,10 +12,6 @@
     max-width: 1184px;
     padding: 32px 0px;
     width: 90%;
-    position: fixed;
-    position: sticky;
-    z-index: 1;
-    background-color: #FFF;
 }
 
 .logoAndTitle {
@@ -36,7 +32,6 @@
     justify-content: space-between;
     width: 428px;
     background-color: #fff;
-    padding-right: 100px;
 }
 
 .navigation ul li a {
@@ -96,14 +91,18 @@
     }
 }
 
-@media (max-width: 430px) {
 
-    .headerSection {
-        max-width: 398px;
-    }
+@media (max-width: 860px) {
 
     .registration {
         display: none;
+    }
+
+    .logoMenuReverse {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
     }
 
 }
@@ -188,7 +187,8 @@
 }
 
 .travelImageDiv {
-    width: 100%;
+    justify-content: center;
+    width: 772px;
 }
 
 .travelImage {
@@ -224,22 +224,43 @@
         text-align: center;
     }
 
+}
+
+
+@media (max-width: 880px) {
+
     .travelImageDiv {
+        width: 100%;
+    }
+
+    .travelImage {
         width: 100%;
     }
 }
 
 
+
+@media (max-width: 600px) {
+
+    .travelText h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .travelText span {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .travelP {
+        width: 100%;
+        margin-bottom: 43px;
+    }
+
+}
+
+
 @media (max-width: 430px) {
-
-    .travelPontSection {
-        max-width: 430px;
-        width: 398px
-    }
-
-    .travelText {
-        width: 398px;
-    }
 
     .travelText h2 {
         font-size: 40px;
@@ -259,22 +280,21 @@
     .startedAndWatch {
         flex-direction: column;
         gap: 24px;
+        width: 100%;
     }
 
     .getStarted {
-        width: 398px;
+        width: 360px;
         height: 65px;
-        padding: 24px 32px;
     }
 
     .watchDemo {
-        width: 398px;
+        width: 360px;
         height: 72px;
-        padding: 24px 32px;
     }
 
-    .travelImageDiv {
-        width: 396px;
+    .travelImage {
+        width: 100%;
     }
 
 }
@@ -317,6 +337,9 @@
     width: 90%;
 }
 
+.destinationImageDiv {
+    justify-content: space-between;
+}
 
 .arrow-left {
     width: 100px;
@@ -371,7 +394,6 @@
     font-size: 44px;
     line-height: 52.8px;
 }
-
 
 /* destination image section */
 
@@ -444,7 +466,6 @@
 @media (max-width: 1024px) {
     .destinationSection {
         max-width: 896px;
-        gap: 67px;
     }
 
     .destinationText {
@@ -454,6 +475,10 @@
     }
 
     .destinationTitles h4 {
+        text-align: center;
+    }
+
+    .destinationTitles h3 {
         text-align: center;
     }
 
@@ -481,10 +506,39 @@
         gap: 8px;
     }
 
+    .exploreImages {
+        width: 100%;
+        height: 240px;
+    }
+
+}
+
+
+@media (max-width: 880px) {
     .destinationAbout {
-        padding: 32px;
+        padding: 0px;
+    }
+
+    .exploreImages {
+        height: 220px;
+        width: 100%;
     }
 }
+
+
+@media (max-width: 720px) {
+    .destinationImageDiv {
+        max-width: 700px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagesDiv {
+        width: 370px;
+        height: auto;
+    }
+}
+
 
 @media (max-width: 430px) {
 
@@ -584,6 +638,10 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
+}
+
+.travelGirlDiv {
+    width: 100%;
 }
 
 .travelGirl {
@@ -876,7 +934,7 @@
     color: #191825BF;
 }
 
-.footerNavigation ul li a h4  {
+.footerNavigation ul li a h4 {
     font-family: 'CircularStd-700';
     font-size: 23px;
     line-height: 27.6px;
@@ -931,7 +989,5 @@
     .footer {
         max-width: 897px;
     }
-
-
 
 }
