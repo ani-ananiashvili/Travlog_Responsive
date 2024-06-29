@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     width: 428px;
-    background-color: #fff;
 }
 
 .navigation ul li a {
