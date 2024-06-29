@@ -229,18 +229,19 @@
 
 @media (max-width: 880px) {
 
-    .travelImageDiv {
-        width: 100%;
-    }
-
+    .travelImageDiv,
     .travelImage {
         width: 100%;
     }
 }
 
 
-
 @media (max-width: 600px) {
+
+    .travelSection,
+    .travelPointText {
+        width: 100%;
+    }
 
     .travelText h2 {
         font-size: 50px;
@@ -262,11 +263,11 @@
 
 @media (max-width: 430px) {
 
-    .travelText h2 {
-        font-size: 40px;
-        line-height: 48px;
+    .travelSection {
+        padding: 0px;
     }
 
+    .travelText h2,
     .travelText span {
         font-size: 40px;
         line-height: 48px;
@@ -284,12 +285,12 @@
     }
 
     .getStarted {
-        width: 360px;
+        width: 100%;
         height: 65px;
     }
 
     .watchDemo {
-        width: 360px;
+        width: 100%;
         height: 72px;
     }
 
@@ -298,6 +299,7 @@
     }
 
 }
+
 
 /* sites section */
 
@@ -321,9 +323,6 @@
         gap: 32px;
     }
 }
-
-@media (max-width: 430px) {}
-
 
 
 /* destination text section */
@@ -534,7 +533,7 @@
     }
 
     .imagesDiv {
-        width: 370px;
+        width: 330px;
         height: auto;
     }
 }
@@ -715,12 +714,22 @@
 
 }
 
+
+@media (max-width: 940px) {
+    .suggestions {
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+
 @media (max-width: 430px) {
     .travelPontSection {
         flex-direction: column;
         max-width: 398px;
         padding: 32px 0px;
-        gap: 64px;
+        gap: 0px;
     }
 
     .travelPointText h3 {
@@ -741,10 +750,6 @@
     .textAndSuggestions {
         max-width: 398px;
         width: 100%;
-    }
-
-    .suggestions {
-        flex-direction: column;
     }
 
     .suggestions div {
@@ -857,6 +862,20 @@
 
 }
 
+
+@media (max-width: 670px) {
+
+    .features {
+        flex-wrap: wrap;
+    }
+
+    .features.feature2 {
+        flex-direction: column;
+    }
+
+}
+
+
 @media (max-width: 430px) {
 
     .keyFeatureSection {
@@ -879,10 +898,6 @@
         line-height: 25.6px;
     }
 
-    .features {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
 
 
@@ -949,6 +964,7 @@
     .footer {
         flex-direction: column;
         max-width: 897px;
+        /* width: 90%; */
     }
 
     .mediaText {
@@ -960,22 +976,35 @@
     }
 
     .fullNav {
-        width: 100%;
+        width: 90%;
         justify-content: space-between;
     }
 
 }
 
-@media (max-width: 430px) {
 
-    .footerNavigation ul li a {
+@media (max-width: 540px) {
+
+    .footerNavigation ul li:not(:first-child),
+    .footerNavigation ul li a:not(:first-child) {
         display: none;
+    }
+
+    .footerNavigation ul li:first-child a {
+        display: block;
+    }
+
+    .footerNavigation ul li:first-child a h4 {
+        display: block;
     }
 
     .fullNav {
         flex-direction: column;
-        gap: 0px;
     }
+
+}
+
+@media (max-width: 430px) {
 
     .mediaP {
         font-size: 16px;
